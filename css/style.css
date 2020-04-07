@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+
+
+/* --------------------------------------------------- HEADER */
+
+header {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    padding: 7px 10px;
+}
+
+header .speaker {
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+header .speaker:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+header .full-screen {
+    font-size: 16px;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: #333;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header .full-screen:hover {
+    background-color: #444;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------------------------------------- MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: calc(100vh - 140px);
+    padding: 30px 50px;
+    overflow: scroll;
+}
+
+main .aula {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.alunni {
+    width: 320px;
+    height: 240px;
+    background-color: #fff;
+    border: 10px solid #000;
+    overflow: hidden;
+}
+
+.alunni:hover {
+    border: 5px solid orange;
+    cursor: pointer;
+}
+
+
+
+/* -------------------------------------------------- FOOTER */
+
+footer {
+    display: flex;
+    background-color: darkred;
+    width: 100%;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END */
